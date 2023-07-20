@@ -1,4 +1,4 @@
 ---
-title: The Blog of God.
+title: ADB A Doglike Blog.
 ---
 
