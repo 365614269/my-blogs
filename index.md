@@ -1,4 +1,4 @@
 ---
-title: ADB Doglike Blog.
+title: A Doglike Blog.
 ---
 
