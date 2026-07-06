@@ -3,7 +3,7 @@ title: "Evaluating vLLM's Rust Frontend for LLM Serving: A Performance Investiga
 date: 2026-07-06
 ---
 
-*Integrating [vllm-project/vllm PR#40838](https://github.com/vllm-project/vllm/pull/40838) into [intel/llm-scaler](https://github.com/intel/llm-scaler)*
+*Integrating [vllm-project/vllm PR#40848](https://github.com/vllm-project/vllm/pull/40848) into [intel/llm-scaler](https://github.com/intel/llm-scaler)*
 
 ---
 
@@ -72,6 +72,7 @@ If the optimization does not move the needle on NVIDIA GPUs under these workload
 | Dimension | Result |
 |---|---|
 | TTFT / TPOT (large models) | No change |
+| P99 TTFT | **~25% improvement on multiple GPUs** |
 | Throughput (high concurrency, small model) | No change |
 | CPU utilization | **6.5–7× reduction** |
 | Recommended when | CPU is the bottleneck; not GPU-bound workloads |
