@@ -4,7 +4,7 @@ title: "Debugging a tool_choice = required EngineCore Crash on Intel XPU"
 date: 2026-07-06
 ---
 
-*Issue investigation on [`intel/llm-scaler`](https://github.com/intel/llm-scaler)*
+*Issue investigation on [`intel/llm-scaler/issues/493`](https://github.com/intel/llm-scaler/issues/493)*
 
 ---
 
