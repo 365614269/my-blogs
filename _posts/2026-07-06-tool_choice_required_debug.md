@@ -1,8 +1,9 @@
 ---
-title: "Debugging a tool_choice = required EngineCore Crash on Intel XPU"
+title: "tool_choice_required_debug"
 
 date: 2026-07-06
 ---
+# Debugging a tool_choice = required EngineCore Crash on Intel XPU
 
 *Issue investigation on [`intel/llm-scaler/issues/493`](https://github.com/intel/llm-scaler/issues/493)*
 

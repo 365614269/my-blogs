@@ -1,7 +1,8 @@
 ---
-title: "Dockerfile Optimization for LLM Scaler: 25 GB → 12.2 GB"
+title: "Dockerfile_improvement"
 date: 2026-07-06
 ---
+# Dockerfile Optimization for LLM Scaler: 25 GB → 12.2 GB
 
 *Work in progress on [`lalapotter/llm-scaler@sgl-bmg`](https://github.com/lalapotter/llm-scaler/tree/sgl-bmg), targeting merge into [`intel/llm-scaler`](https://github.com/intel/llm-scaler)*
 

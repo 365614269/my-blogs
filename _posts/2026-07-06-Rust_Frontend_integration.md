@@ -1,7 +1,8 @@
 ---
-title: "Evaluating vLLM's Rust Frontend for LLM Serving: A Performance Investigation"
+title: "Rust_Frontend_integration"
 date: 2026-07-06
 ---
+# Evaluating vLLM's Rust Frontend for LLM Serving: A Performance Investigation
 
 *Integrating [vllm-project/vllm PR#40848](https://github.com/vllm-project/vllm/pull/40848) into [intel/llm-scaler](https://github.com/intel/llm-scaler)*
 
