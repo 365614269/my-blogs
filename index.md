@@ -1,4 +1,4 @@
 ---
-title: A Doglike Blog.
+title: Mark's findings summary.
 ---
 
