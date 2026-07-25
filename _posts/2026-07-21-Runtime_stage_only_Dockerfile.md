@@ -7,9 +7,11 @@ date: 2026-07-21
 
 My Docker image optimization work for LLM Scaler has now been **merged into the internal codebase**.
 
+[Feat/dockerfile scripts cleanup](https://github.com/intel/llm-scaler/pull/540)
+
 The multi-stage Dockerfile significantly reduced the runtime image size by keeping compilers, build dependencies, and intermediate files out of the final image. However, the build stage still had an important operational cost: compiling the Python wheels could take **up to an hour**.
 
-That wait time became a problem for internal consumers of the image, particularly teams that need fast iteration or frequent rebuilds. The next improvement is therefore not primarily about image size—it is about separating the expensive compilation work from routine runtime-image builds.
+That wait time became a problem for internal and external consumers of the image, particularly teams that need fast iteration or frequent rebuilds. The next improvement is therefore not primarily about image size—it is about separating the expensive compilation work from routine runtime-image builds.
 
 The below work saved the Docker image build time significantly, from **81mins -> 12mins for vllm**.
 
